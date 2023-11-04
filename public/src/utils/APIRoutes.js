@@ -1,4 +1,4 @@
-export const host = "http://Chat-app-env-2.eba-p9w2pfar.eu-north-1.elasticbeanstalk.com";
+export const host = "http://13.48.84.3:5000";
 export const loginRoute = `${host}/api/auth/login`;
 export const registerRoute = `${host}/api/auth/register`;
 export const logoutRoute = `${host}/api/auth/logout`;

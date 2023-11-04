@@ -35,7 +35,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "Chat-app-env-2.eba-p9w2pfar.eu-north-1.elasticbeanstalk.com",
+    origin: "http://13.48.84.3:5000",
     credentials: true,
   },
 });
